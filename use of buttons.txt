@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        h1{
+            background-color: blue;
+            padding: 20px;
+        }
+    
+        .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blueviolet;
+}
+
+img {
+  max-width: 100%;
+  max-height:100%; 
+  padding-right: 5cm;
+}
+
+.text {
+  font-size: 15px;
+  padding-right:5cm;
+}
+.card{
+
+text-align: center;
+
+}
+.tabcards{
+    display: flex;
+    flex-direction: row;
+}
+.button{
+ background-color:white;
+ padding: 10px 10px 10px 10px;
+ border-radius: 10px;
+}
+.button:hover{
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #5a01a7;
+    background-color: blue;
+    transition: 0.7s;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><center><b>
+       <i> A</i>UDI</b></center>
+    </h1><br>
+    <div class="container">
+    <div class="image">
+    <img src="https://imgd.aeplcdn.com/1200x900/n/cw/ec/48342/rs7-sportback-exterior-right-front-three-quarter-3.jpeg?q=75" width="300px 300px">
+    
+    </div>
+<div class="text">
+    <p >
+       <i>
+        <b>
+            Audi AG (German: [ˈaʊ̯di ʔaːˈɡeː] (listen)) is a German automotive manufacturer<br> of luxury vehicles headquartered in Ingolstadt,<br> Bavaria, Germany. As a subsidiary of its parent company, the Volkswagen Group,<br> Audi produces vehicles in nine production facilities worldwide.<br>
+            The origins of the company are complex,<br> going back to the early 20th century<br> and the initial enterprises (Horch and the Audiwerke) founded by<br> engineer August Horch (1868–1951); and two other manufacturers <br>(DKW and Wanderer), leading to the foundation of Auto Union in 1932.<br> The modern Audi era began in the 1960s,<br> when Auto Union was acquired by Volkswagen from Daimler-Benz.[9]<br> After relaunching the Audi brand with the 1965 introduction of the Audi<br> F103 series, Volkswagen merged Auto Union with NSU Motorenwerke in 1969,<br> thus creating the present-day form of the company.<br>
+        </b>
+       </i>
+     </p>
+     </div>
+     <div class="tabcards">
+        <div class="card">
+            <img src= "https://www.carblogindia.com/wp-content/uploads/2019/09/Audi-AI-Race-1024x576.jpg" style="width: 350px;">
+            <h4><b> AUDI R8</b></h4>
+            <div class="button:hover">
+                <a href="https://en.wikipedia.org/wiki/Audi">
+                <button class="button" >CLICK HERE
+                    
+                </button>
+            </a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://static.toiimg.com/photo/msid-63717017/63717017.jpg"  style="width: 250px;">
+            <h4><b>RS 8</b></h4>
+            <div class="button:hover">
+                <button class="button">CLICK HERE</button>
+            </div>
+        </div>
+        </div>
+     
+     </div>
+     
+
+</body>
+</html>
